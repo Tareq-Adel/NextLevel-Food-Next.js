@@ -5,11 +5,7 @@ import { usePathname } from "next/navigation";
 import classes from "./nav-link.module.css";
 
 export default function NavLink({ href, children }) {
-	console.log(children, "hi");
-	console.log(href, "hi");
-
 	const path = usePathname();
-	console.log("hi ");
 
 	return (
 		<Link

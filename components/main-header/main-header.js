@@ -10,6 +10,7 @@ import MainHeaderBackgroun from "./main-header-background";
 import NavLink from "./nav-link";
 
 export default function MainHeader() {
+	// console.log("baraa");
 	// const path = usePathname();
 
 	return (
@@ -37,30 +38,6 @@ export default function MainHeader() {
 								Browse Community
 							</NavLink>
 						</li>
-						{/* <li>
-							<Link
-								href='/meals'
-								className={
-									path.startsWith("/meals")
-										? classes.active
-										: undefined
-								}
-							>
-								Browse Meals
-							</Link>
-						</li>
-						<li>
-							<Link
-								href='/community'
-								className={
-									path.startsWith("/community")
-										? classes.active
-										: undefined
-								}
-							>
-								Browse Community
-							</Link>
-						</li> */}
 					</ul>
 				</nav>
 			</header>
